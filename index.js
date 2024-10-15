@@ -13,6 +13,7 @@ let todos = [];
 
 app.get('/todos', (req, res) => {
   res.json(todos);
+  console.log("Faaiz")
 });
 
 app.get('/todos/:id', (req, res) => {
